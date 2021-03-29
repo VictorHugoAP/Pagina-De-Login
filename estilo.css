@@ -1,0 +1,136 @@
+body{
+	margin: 0 auto;
+}
+
+.backg{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+}
+
+.conteudo{
+	position: absolute;
+	width: 400px;
+	right: 200px;
+	height: 400px;
+	top: 200px;
+	background: #848484;
+	opacity: 70%;
+	font-family: "Georgia";
+	border-radius: 20px;
+}
+
+.nome1{
+	color: #0F315A;
+	font-weight: 600;
+	position: absolute;
+	top: 135px;
+	right: 435px;
+	font-size: 50px;
+}
+
+.nome2{
+	font-weight: 600;
+	position: absolute;
+	font-size: 50px;
+	top: 135px;
+	right: 275px;
+	color: #4DAD82;
+}
+
+.logo{
+	position: absolute;
+	top: 22px;
+	width: 150px;
+	right: 325px;
+}
+
+.login{
+	position: relative;
+	top: 50px;
+	margin-bottom: 15px;
+	padding-left: 40px;
+}
+
+.senha{
+	position: relative;
+	top: 60px;
+	padding-left: 40px;
+}
+
+label{
+	color: white;
+	font-size: 18px;
+}
+
+input{
+	background: transparent;
+	border: 1px solid white;
+	border-color: transparent transparent white transparent;
+	color: white;
+	font-size: 16px;
+	transition: 0.5s;
+	width: 240px;
+}
+
+input:focus{
+	outline: 0;
+	border-color: transparent transparent #0F315A transparent;
+	border-radius: 5px;
+	color: white;
+	font-size: 18px;
+}
+
+button{
+	position: relative;
+	border: 1px solid #0F315A;
+	background-color: transparent;
+	color: white;
+	top: 110px;
+	left: 40px;
+	width: 250px;
+	height: 35px;    
+	border-radius: 5px;              
+}
+
+button:hover{
+	background-color: white;
+	border: 1px solid #0F315A;
+	color: #0F315A;
+}
+
+.recpSenha{
+	position: relative;
+	color: white;
+	text-decoration: none;
+	top: 60px;
+	right: 100px;
+}
+
+.recpSenha:hover{
+	color: #0F315A;
+	text-decoration: underline;
+}
+
+.site{
+	position: relative;
+	top: 160px;
+	left: 130px;
+	color: #0F315A;
+	font-size: 16px;
+}
+
+.site:hover{
+	color: white;
+}
+
+.termos{
+	position: relative;
+	top: 220px;
+	left: 14px;
+	color: #0F315A;
+}
+
+.termos:hover{
+	color: white;
+}
